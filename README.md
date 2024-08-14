@@ -52,7 +52,7 @@ Auto Start Using Termux + Termux Boot
 ```
 
 ```
-mkdir -p ~/.termux/ 
+mkdir -p ~/.termux/boot
 ```
 ```
 nano ~/.termux/boot/start-mining.sh
