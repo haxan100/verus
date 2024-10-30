@@ -22,8 +22,8 @@ https://f-droid.org/en/packages/com.termux.boot/
 3. Get Termux ready:
 - Type `y` then enter key in any prompts!
 ```
-yes | pkg update && pkg upgrade
-yes | pkg install libjansson wget nano
+pkg update && pkg upgrade -y
+pkg install libjansson wget nano -y
 ```
 3. Download ccminer, config, start:
 ```
