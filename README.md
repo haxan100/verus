@@ -6,6 +6,8 @@
 
 # Installation:
 1. Download & install Termux [Termux](https://f-droid.org/id/packages/com.termux/):
+
+https://github.com/haxan100/verus
 ```
 https://f-droid.org/id/packages/com.termux/
 ```
