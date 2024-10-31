@@ -107,7 +107,7 @@ function clickLaunchButton() {
 }
 
 clickLaunchButton();
-setInterval(clickLaunchButton, 5000);
+setInterval(clickLaunchButton, 15000);
 
 
 ```
