@@ -69,5 +69,12 @@ verivikasi
 ```
 chmod +x ~/.termux/boot/start-mining.sh
 ```
+ketika untuk buka pertama kali termux 
+nano ~/.bashrc
+
+```
+~/ccminer/start.sh
+```
+
 Reboot 
 tunggu 5 menitan
