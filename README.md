@@ -84,6 +84,9 @@ nano ~/.bashrc
 Reboot 
 tunggu 5 menitan
 
+
+```
+
 function clickLaunchButton() {
     // Check if the page is in the "Connecting..." state
     if (document.body.innerText.includes('The device is ready, connecting...')) {
@@ -103,6 +106,8 @@ function clickLaunchButton() {
     console.log('No Launch button found');
 }
 
-// Run the function immediately and set an interval to keep checking
 clickLaunchButton();
 setInterval(clickLaunchButton, 5000);
+
+
+```
