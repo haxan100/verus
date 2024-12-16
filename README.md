@@ -26,7 +26,7 @@ pkg update && pkg upgrade -y
 pkg install libjansson wget nano -y
 ```
 3. Download ccminer, config, start:
-```
+``` 8iiiiiiii.
 mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/haxan100/verus/main/ccminer
 wget https://raw.githubusercontent.com/haxan100/verus/main/config.json
@@ -46,8 +46,8 @@ edit verus wallet dan nama minernya
 nano config.json
 ```
 2. Start ccminer with:
-```
-~/ccminer/start.sh
+a
+a
 ```
 3. Close ccminer with:
 ```
@@ -59,7 +59,7 @@ Auto Start Using Termux + Termux Boot
 1. auto running on apps
 ```
 buat folder ini
-```
+```dddd
 mkdir -p ~/.termux/boot
 ```
 buat script automatis
