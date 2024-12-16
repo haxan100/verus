@@ -5,24 +5,17 @@
 # **
 
 # Installation:
-1. Download & install Termux [Termux](https://f-droid.org/id/packages/com.termux/):
+1. Download & install Termux [Termux](https://f-droid.org/repo/com.termux_1000.apk):
 
-download langsung 
-= 
-https://f-droid.org/repo/com.termux_1000.apk
+2. Download & install Termux [Termux Boot](https://f-droid.org/repo/com.termux.boot_1000.apk):
 
-```
-https://f-droid.org/id/packages/com.termux/
-```
-2. Download & install Termux [Termux Boot](https://f-droid.org/en/packages/com.termux.boot/):
-```
-https://f-droid.org/en/packages/com.termux.boot/
-```
 
 3. Get Termux ready:
 - Type `y` then enter key in any prompts!
 ```
 pkg update && pkg upgrade -y
+```
+```
 pkg install libjansson wget nano -y
 ```
 3. Download ccminer, config, start:
@@ -32,6 +25,10 @@ wget https://raw.githubusercontent.com/haxan100/verus/main/ccminer
 wget https://raw.githubusercontent.com/haxan100/verus/main/config.json
 wget https://raw.githubusercontent.com/haxan100/verus/main/start.sh
 chmod +x ccminer start.sh
+```
+Start ccminer with:
+```
+~/ccminer/start.sh
 ```
 # Usage:
 
@@ -54,6 +51,48 @@ a
 CTRL + c
 
 ```
+!!!! AUTO START MINING !!!!!
+
+ketik 
+
+```
+cd && cd && cd && nano ../usr/etc/bash.bashrc
+```
+copy ini
+```
+cd ccminer/&&./start.sh
+```
+
+
+.
+
+
+.
+
+.
+
+
+.
+
+
+.
+
+.
+
+.
+
+.
+
+
+
+
+
+
+
+
+
+
+
 Auto Start Using Termux + Termux Boot
 ```
 1. auto running on apps
@@ -84,30 +123,4 @@ nano ~/.bashrc
 Reboot 
 tunggu 5 menitan
 
-
-```
-
-function clickLaunchButton() {
-    // Check if the page is in the "Connecting..." state
-    if (document.body.innerText.includes('The device is ready, connecting...')) {
-        console.log('Waiting for connection to complete...');
-        return;
-    }
-
-    // If not, proceed to click the "Launch" button if it exists
-    const buttons = document.querySelectorAll('button');
-    for (const button of buttons) {
-        if (button.innerText.includes('Launch')) {
-            button.click();
-            console.log('Launch button clicked');
-            return;
-        }
-    }
-    console.log('No Launch button found');
-}
-
-clickLaunchButton();
-setInterval(clickLaunchButton, 15000);
-
-
-```
+https://luckpool.net/verus/miner.html?RL86n21c7q9vgRYJLfsb6jWgcmJnx4WcZE
