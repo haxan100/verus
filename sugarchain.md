@@ -53,3 +53,8 @@ RUNNIING = >
     ./sugarmaker -o stratum+tcp://yespowerSUGAR.asia.mine.zergpool.com:6535 -u sugar1q9qjv0f06dkuy6x4cm9kka6x773vwavvk0ew9j9.hasan  -t4
 
     ./sugarmaker -o stratum+tcp://cugeoyom.tech:3333 -u sugar1q9qjv0f06dkuy6x4cm9kka6x773vwavvk0ew9j9 -p c=SUGAR,mc=SUGAR,ID=wi -t7
+
+
+link
+
+http://cugeoyom.tech:8080/workers/sugar1q9qjv0f06dkuy6x4cm9kka6x773vwavvk0ew9j9
