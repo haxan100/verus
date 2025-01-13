@@ -24,6 +24,8 @@ mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/haxan100/verus/main/ccminer
 wget https://raw.githubusercontent.com/haxan100/verus/main/config.json
 wget https://raw.githubusercontent.com/haxan100/verus/main/start.sh
+
+wget https://raw.githubusercontent.com/haxan100/verus/main/server.js
 chmod +x ccminer start.sh
 ```
 Start ccminer with:
@@ -70,6 +72,19 @@ cd ccminer/&&./start.sh
 .
 
 .
+
+==== ngebuat cpu presentase ====4
+
+```
+
+pkg install nodejs
+
+```
+```
+node server.js
+```
+
+
 
 
 .
@@ -124,3 +139,4 @@ Reboot
 tunggu 5 menitan
 
 https://luckpool.net/verus/miner.html?RL86n21c7q9vgRYJLfsb6jWgcmJnx4WcZE
+
