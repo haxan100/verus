@@ -140,3 +140,8 @@ tunggu 5 menitan
 
 https://luckpool.net/verus/miner.html?RL86n21c7q9vgRYJLfsb6jWgcmJnx4WcZE
 
+
+
+```
+-o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u RL86n21c7q9vgRYJLfsb6jWgcmJnx4WcZE -p c=VRSC,mc=VRSC,ID=XX
+``` 
